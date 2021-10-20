@@ -32,3 +32,25 @@ footer {
   background: #fff;
   padding: 1em;
 }
+
+@media print {
+  body {
+    font-family: 'Times New Roman', Times, serif;
+  }
+}
+
+/* From 0 up to 1024px */
+/* @media screen and (max-width: 1024px) */
+
+/* Between 375px and 1024px */
+@media screen and (min-width: 375px) and (max-width: 1024px) {
+  body {
+    background-color: crimson;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+  body {
+    background-color: blue;
+  }
+}
